@@ -150,6 +150,16 @@ section{
     font-size: 0.8em;
 }
 
+@media screen and (min-width:850px) {
+    #trendContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }   
+    
+    .single-trend{
+        flex-basis: 48%;
+    }
+}
 
 /*ASIDE*/
 
@@ -199,6 +209,15 @@ aside nav ul li a{
     color: lightgray;
 }
 
+@media screen and (min-width:850px) {
+    #asideArticleDiv{
+        display: flex;
+    }
+
+    aside{
+        order: 2;
+    }
+}
 
 /*ARTICLE*/
 .article-container{
